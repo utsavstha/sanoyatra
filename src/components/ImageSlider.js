@@ -4,9 +4,9 @@ import Selector from './Selector';
 const ImageSlider = () => {
     return (
 
-        <div className="flex" style={{ backgroundImage: `url(${mainImage})`, backgroundPosition: 'center', backgroundSize: '100% 100%', backgroundRepeat: "no-repeat", height: "30rem" }}>
+        <div className="md:flex bg-center" style={{ backgroundImage: `url(${mainImage})`, backgroundRepeat: "no-repeat", height: "30rem" }}>
             {/* <p className="font-serif text-white text-2xl object-center">Dare to live the life<br></br>You've always wanted.</p> */}
-            <div className="self-center flex sm:mx-auto pl-2 bg-white shadow-xl rounded-lg h-24 md:w-88">
+            <div className="self-center flex md:visible invisible bg-white shadow-xl mx-auto rounded-lg h-24 md:w-88">
                 <Selector title="TRIP TYPE" options={["HIKING", "TREKKING"]} />
                 <Selector title="LOCATION" options={["KATHMANDU", "LANGTANG"]} />
                 <Selector title="NUMBER OF PEOPLE" options={["1", "2", "3"]} />
@@ -18,6 +18,18 @@ const ImageSlider = () => {
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
                     </svg>
+                </div>
+            </div>
+
+            <div className="self-center md:hidden visible justify-center flex-col sm:mx-auto bg-white shadow-xl rounded-lg mx-auto w-1/2">
+                <Selector title="TRIP TYPE" options={["HIKING", "TREKKING"]} />
+                <Selector title="LOCATION" options={["KATHMANDU", "LANGTANG"]} />
+                <Selector title="NUMBER OF PEOPLE" options={["1", "2", "3"]} />
+                <Selector title="DATE" options={["2020/10/20", "2", "3"]} />
+
+                <div className="bg-red-600 text-white rounded-bl-md rounded-br-md mt-4 hover:bg-red-500">
+                    <p className="self-center py-4 text-center">Book Now</p>
+
                 </div>
             </div>
 

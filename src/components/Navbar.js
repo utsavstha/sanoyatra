@@ -1,7 +1,7 @@
 import React, { } from 'react';
 const Navbar = () => {
     return (
-        <header className="text-gray-700 body-font">
+        <header className="text-gray-700 body-font ">
             <div className="container px-5 py-3 max-w-full flex items-center sm:flex-row flex-col bg-gray-900">
                 <p className="text-sm text-gray-500">
                     <i className="fa fa-envelope mx-2 text-red-600" aria-hidden="true"></i>sanoyatra@gmail.com</p>

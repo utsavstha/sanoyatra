@@ -2,7 +2,7 @@ import React from 'react';
 
 const Selector = ({ title, options }) => {
     return (
-        <div className="self-center p-4">
+        <div className="self-center px-4 py-2">
             <p className="text-sm text-gray-800 text-leading">{title}</p>
             <div class="relative">
                 <select class="block appearance-none w-full border border-gray-200 text-gray-700 py-1 px-1 pr-8 mt-2 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-sm" id="grid-state">
