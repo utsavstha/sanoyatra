@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c7c8fb449df6707a82bf3554673eba9",
+    "revision": "c2ba9b7b61fa71a7d7e3296fea9cabc7",
     "url": "/sanoyatra/index.html"
   },
   {
-    "revision": "b1732f40d3d94f14c9d8",
+    "revision": "10470be6533461d9a43e",
     "url": "/sanoyatra/static/css/main.ca56c738.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sanoyatra/static/js/2.3cec9c7e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1732f40d3d94f14c9d8",
-    "url": "/sanoyatra/static/js/main.46f2107c.chunk.js"
+    "revision": "10470be6533461d9a43e",
+    "url": "/sanoyatra/static/js/main.9914ca27.chunk.js"
   },
   {
     "revision": "be40b1934fc7baef32aa",
