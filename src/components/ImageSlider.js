@@ -4,7 +4,7 @@ import Selector from './Selector';
 const ImageSlider = () => {
     return (
 
-        <div className="flex h-104" style={{ backgroundImage: `url(${mainImage})`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+        <div className="flex" style={{ backgroundImage: `url(${mainImage})`, backgroundPosition: 'center', backgroundSize: '100% 100%', backgroundRepeat: "no-repeat", height: "30rem" }}>
             {/* <p className="font-serif text-white text-2xl object-center">Dare to live the life<br></br>You've always wanted.</p> */}
             <div className="self-center flex sm:mx-auto pl-2 bg-white shadow-xl rounded-lg h-24 md:w-88">
                 <Selector title="TRIP TYPE" options={["HIKING", "TREKKING"]} />
