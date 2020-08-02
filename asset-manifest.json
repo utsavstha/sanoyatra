@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sanoyatra/static/css/main.ca56c738.chunk.css",
-    "main.js": "/sanoyatra/static/js/main.a47aad73.chunk.js",
-    "main.js.map": "/sanoyatra/static/js/main.a47aad73.chunk.js.map",
+    "main.js": "/sanoyatra/static/js/main.955ef61b.chunk.js",
+    "main.js.map": "/sanoyatra/static/js/main.955ef61b.chunk.js.map",
     "runtime-main.js": "/sanoyatra/static/js/runtime-main.0d7e138a.js",
     "runtime-main.js.map": "/sanoyatra/static/js/runtime-main.0d7e138a.js.map",
     "static/js/2.3cec9c7e.chunk.js": "/sanoyatra/static/js/2.3cec9c7e.chunk.js",
     "static/js/2.3cec9c7e.chunk.js.map": "/sanoyatra/static/js/2.3cec9c7e.chunk.js.map",
     "index.html": "/sanoyatra/index.html",
-    "precache-manifest.8500366b45d54bf4f05ec18d319bfca3.js": "/sanoyatra/precache-manifest.8500366b45d54bf4f05ec18d319bfca3.js",
+    "precache-manifest.42f61bfd6e772175266c9f33c19f3ac6.js": "/sanoyatra/precache-manifest.42f61bfd6e772175266c9f33c19f3ac6.js",
     "service-worker.js": "/sanoyatra/service-worker.js",
     "static/css/main.ca56c738.chunk.css.map": "/sanoyatra/static/css/main.ca56c738.chunk.css.map",
     "static/js/2.3cec9c7e.chunk.js.LICENSE.txt": "/sanoyatra/static/js/2.3cec9c7e.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.0d7e138a.js",
     "static/js/2.3cec9c7e.chunk.js",
     "static/css/main.ca56c738.chunk.css",
-    "static/js/main.a47aad73.chunk.js"
+    "static/js/main.955ef61b.chunk.js"
   ]
 }
