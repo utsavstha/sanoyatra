@@ -2,7 +2,7 @@ import React from 'react';
 import mustang from '../assets/mustang.jpg'
 const Card = ({ destination }) => {
     return (
-        <div class="container w-full mx-auto transition duration-100 ease-in-out  transform hover:-translate-y-1 hover:scale-105">
+        <div class="container max-w-sm mx-auto transition duration-100 ease-in-out  transform hover:-translate-y-1 hover:scale-105">
             <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
                 <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={mustang} alt="blog"></img>
                 <div class="p-6">

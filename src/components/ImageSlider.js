@@ -21,7 +21,7 @@ const ImageSlider = () => {
                 </div>
             </div>
 
-            <div className="self-center md:hidden visible justify-center flex-col sm:mx-auto bg-white shadow-xl rounded-lg mx-auto w-1/2">
+            <div className="self-center md:hidden visible justify-center flex-col sm:mx-auto bg-white shadow-xl rounded-lg mx-auto max-w-sm">
                 <Selector title="TRIP TYPE" options={["HIKING", "TREKKING"]} />
                 <Selector title="LOCATION" options={["KATHMANDU", "LANGTANG"]} />
                 <Selector title="NUMBER OF PEOPLE" options={["1", "2", "3"]} />
